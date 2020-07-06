@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount_spent: 9.99
+  merchant: one
+  bill_number: MyString
+  user: one
+  payment_type: one
+
+two:
+  amount_spent: 9.99
+  merchant: two
+  bill_number: MyString
+  user: two
+  payment_type: two

@@ -1,0 +1,13 @@
+<div class="uploader">
+	
+	<div style="margin-top: 20px;"></div>
+	<h2 class="text-center">Admin Panel to upload data</h2>
+
+	<div class="progress-bar"></div>
+
+	<%= form_tag "/upload", method: :post, remote: true, multipart: true do %>
+		<%= file_field_tag :transaction_csv %>	
+	  <p>Drag your files here or click in this area.</p>
+	  <%= submit_tag "Upload" %>
+	<% end %>
+</div>
